@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practice Game</title>
+        <link rel="stylesheet" href="r-p-s.css">
+        <script src="r-p-s.js">
+        </script>
+    </head>
+    <body>
+        <h2 style="font-family: roboto;">Rock - Paper - Scissors</h2>
+        <button onkeydown="downkey();" class="butclick" onclick="
+            rock();" >
+            <img src="pics/Rock-emoji.png" class="clicks">
+        </button>
+
+
+        <button class="butclick" onkeydown="downkey();" onclick="paper();">
+            <img src="pics/Paper-emoji.png" class="clicks">
+        </button>
+
+
+        <button class="butclick" onkeydown="downkey();" onclick="
+            scissors();">
+            <img src="pics/Scissors-emoji.png" class="clicks">
+        </button>
+
+
+        <p id="outcome"></p>
+        <p id="moves" >Pick Your Move 🃏</p>
+        <p id="score"></p>
+
+        <button class="reset" onclick="reset();">
+            Reset Score ♻
+        </button>
+    </body>
+</html>

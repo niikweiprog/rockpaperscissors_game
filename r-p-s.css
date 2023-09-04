@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.clicks{
+    border: none;
+    height: 50px;
+    width: 50px;
+    
+}
+
+.butclick{
+    background-color: transparent;
+    border: 3px solid white;
+    height: 100px;
+    width: 100px;
+    border-radius: 60%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.reset{
+    background-color:white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
